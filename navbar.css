@@ -1,0 +1,152 @@
+.top-header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 5px #51515179;
+}
+
+.header-bk {
+    background: linear-gradient(
+        rgba(29,30,35,0.7),
+        rgba(29,30,35,0.7)
+    ),
+    url(images/backg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0 0 0;
+    position: relative;
+}
+
+.menu.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 0px 20px;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(
+        90deg,
+        rgb(29, 30, 35) 25%,
+        rgb(33, 9, 17) 100%
+    );
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+}
+
+.logo img {
+    width: 105px;
+    height: 46px;
+}
+
+.navbar ul li{
+    position: relative;
+    float: left;
+    
+}
+
+.navbar ul li a {
+    font-size: 15.5px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+}
+
+.navbar a::after {
+    content: "";
+    background-color: #91004c;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 4px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.navbar a.selected::after, 
+.navbar a:hover::after {
+    opacity: 1;
+}
+
+.menu a:hover {
+    color: #FFB0CB;
+}
+
+  @media(max-width:991px) {
+      
+    .navbar.active {
+        display: block;
+    }
+      
+    .menu.container {
+        padding: 5px 20px;
+    }
+    .logo img {
+      width: 85px;
+      height: 40px;
+      align-items: center;
+      display: flex;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .header-bk {
+        min-height: 0vh;
+        padding: 100px 30px; 
+    }
+
+    .top-header-txt {
+        text-align: center;
+        padding: 0;
+    }
+
+    .menu label {
+        display: initial;
+      }
+    
+      .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(29, 30, 35);
+        max-height: 0; 
+        overflow: hidden; 
+        transition: max-height 0.3s ease-in-out; 
+      }
+    
+      #menu:checked ~.navbar {
+        max-height: 400px; 
+      }
+    
+      .navbar ul li {
+        width: 100%;
+      }
+
+    .navbar a::after {
+        content: none;
+    }
+
+    .menu a:hover,
+    .menu a.selected {
+        color: #91004c;
+    }
+
+
+  }

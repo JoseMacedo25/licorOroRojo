@@ -4,45 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Licor de granada: Oro Rojo</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
     <link rel="icon" type="image/x-icon" href="images/iconhtml.ico">
+    <script defer src="app.js"></script>
+    
 </head>
 <body>
+
+    <header class="top-header" id="Inicio">
+        <div class="header-bk">
+            <div class="menu container">
+                <a href="#" class="logo">
+                    <img src="images/logo.png" alt="logo">
+                    <div>
+                        Oro rojo
+                    </div>
+                </a>
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="images/menu.png" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                      <li><a href="#Inicio" class="selected">Inicio</a></li>
+                      <li><a href="#About">¿Quienes somos?</a></li>
+                      <li><a href="#Reseñas">Reseñas</a></li>
+                      <li><a href="#Blog">Blog</a></li>
+                      <li><a href="#Contacto">Contacto</a></li>
+                      </ul>
+                </nav>
+            </div>
     
-    <header class="header">
-        
-        <div class="menu container">
-            <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
-            <input type="checkbox" id="menu"/>
-            <label for="menu">
-                <img src="images/menu.png" class="menu-icono" alt="menu">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">¿Quienes somos?</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        
-        <div class="header-content container">
-            <div class="header-txt">
-                <h1>Oro rojo</h1>
-                <h2>Licor de granada</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Fusce id justo a dolor eleifend facilisis. 
-                    Sed non tellus in nibh eleifend consectetur sed eu nisi. 
-                    Donec fermentum tristique sodales. Mauris tincidunt porta pharetra. 
-                </p>
-                <a href="#" class="btn-1">Informacion</a>
+            <div class="top-header-content container">
+                <div class="top-header-txt">
+                    <h1>Oro rojo</h1>
+                    <h2>Licor de granada</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Fusce id justo a dolor eleifend facilisis. 
+                        Sed non tellus in nibh eleifend consectetur sed eu nisi. 
+                        Donec fermentum tristique sodales. Mauris tincidunt porta pharetra. 
+                    </p>
+                    <a href="#" class="btn-1">Informacion</a>
+                </div>
             </div>
         </div>
     </header>
 
-    <section class="about">
+    <section class="about" id="About">
         <div class="about-content container">
             <div class="about-txt">
                 <span>Oro rojo</span>
@@ -67,7 +82,7 @@
         </div>
     </section>
 
-    <section class="testimonial">
+    <section class="testimonial" id="Reseñas">
         <span>Oro rojo</span>
         <h2>Testimonios</h2>
         <div class="testimonial-content container">
@@ -92,7 +107,7 @@
         </div>
     </section>
 
-    <section class="blog">
+    <section class="blog" id="Blog">
         <span>Oro rojo</span>
         <h2>Nuestras noticias</h2>
 
@@ -147,7 +162,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="Contacto">
         <div class="contact-content">
             <span>Oro rojo</span>
             <h2>+55555555</h2>
