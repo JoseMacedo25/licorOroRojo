@@ -217,7 +217,7 @@ img {
 .header-txt h1 {
     font-size: 120px;
     line-height: 1;
-    background: linear-gradient(to right, #FFB0CB, #641C34);
+    background: linear-gradient(to right, #beffb0, #641C34);
     -webkit-background-clip: text;
     background-clip: text; 
     -webkit-text-fill-color: transparent;
