@@ -86,7 +86,7 @@
     color: #FFB0CB;
 }
 
-  @media(max-width:991px) {
+  @media(max-width:950px) {
       
     .navbar.active {
         display: block;

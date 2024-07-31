@@ -354,7 +354,7 @@ input {
   color: #91004c;
 }
 
-@media(max-width:991px) {
+@media(max-width:950px) {
 
   .body {
     padding-top: 50px;
