@@ -96,7 +96,7 @@ p {
 }
 
 .about {
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: #24272E;
 }
 
@@ -111,6 +111,7 @@ p {
 }
 
 span {
+    font-weight: 600;
     font-size: 20px;
     color: #a53d75;
     font-family: "Playwrite BE VLG", cursive;
@@ -224,6 +225,7 @@ hr {
     );
 }
 
+
 .plan-1 p {
   margin-bottom: 20px;
 }
@@ -304,6 +306,14 @@ input {
   padding: 20px;
 }
 
+.blog-1 span {
+  font-size: 30px;
+  background: linear-gradient(to right, #932a4d, #cc016a);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
 .blog-txt h3 {
   color: #FFFFFF;
   font-size: 18px;
@@ -327,13 +337,14 @@ input {
 }
 
 .footer {
-  padding: 100px 0;
+  padding: 25px 0;
   background-color: #191A1F;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .link h3 {
@@ -354,11 +365,34 @@ input {
   color: #91004c;
 }
 
-@media(max-width:950px) {
+.contact-content p {
+  padding: 0px 300px;
+}
 
-  .body {
-    padding-top: 50px;
-  }
+.btn-2 {
+  display: inline-flex;
+  padding: 11px 35px;
+  color: #FFFFFF;
+  background: linear-gradient(
+      90deg,
+      rgba(165,11,94,1) 0%,
+      rgba(100,28,52,1) 100%
+  );
+}
+
+.btn-2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.derechos {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #979797;
+  text-align: center;
+}
+
+@media(max-width:950px) {
 
   .menu {
     padding: 20px;
@@ -440,7 +474,27 @@ input {
   }
 
   .contact {
-    padding: 100px 30px;
+    padding: 10px;
+  }
+  
+  .contact-content p {
+    padding: 0 30px;
+  }
+
+  .contact {
+    padding: 100px 0;
+    background: linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ),
+    url(images/bg2.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .contact-content {
+    text-align: center;
   }
 
   .footer {
