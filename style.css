@@ -369,11 +369,11 @@ input {
   font-size: 16px;
   margin: 10px 2px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+  transition: background-color 0.3s ease; 
 }
 
 .btn-2:hover {
-  background-color: #ff4070; /* Color de fondo cuando el botón es hover */
+  background-color: #ff4070; 
 }
 
 .btn-2 img {
