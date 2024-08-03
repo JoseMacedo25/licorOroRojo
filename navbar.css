@@ -131,9 +131,9 @@
 
     .menu label {
         display: initial;
-      }
+    }
     
-      .navbar {
+    .navbar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -141,16 +141,20 @@
         background-color: rgb(29, 30, 35);
         max-height: 0; 
         overflow: hidden; 
-        transition: max-height 0.3s ease-in-out; 
-      }
-    
-      #menu:checked ~.navbar {
+        transition: max-height 0.4s ease-in-out; 
+    }
+
+    .slow-transition {
+        transition: max-height 1s ease-in-out; 
+    }
+
+    #menu:checked ~.navbar {
         max-height: 400px; 
-      }
+    }
     
-      .navbar ul li {
+    .navbar ul li {
         width: 100%;
-      }
+    }
 
     .navbar a::after {
         content: none;
