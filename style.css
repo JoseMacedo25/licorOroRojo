@@ -383,12 +383,18 @@ input {
 }
 
 .derechos {
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 12px;
   color: #979797;
   text-align: center;
 }
 
+.autor {
+  margin-top: 5px;
+  font-size: 9px;
+  color: #4f4f4f;
+  text-align: center;
+}
 @media(max-width:950px) {
 
   .menu {
