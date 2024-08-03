@@ -20,3 +20,9 @@ menuLinks.forEach((menuLink) => {
     observer.observe(target);
   }
 });
+
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).catch(err => {
+      console.error("Error al copiar el texto: ", err);
+  });
+}
