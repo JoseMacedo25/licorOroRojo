@@ -286,7 +286,7 @@ input {
 .blog-1 {
   flex-basis: calc(33.3% - 20px);
   background-color: #24272E;
-  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
   border-radius: 30px;
 }
 
@@ -302,7 +302,7 @@ input {
 
 .blog-1 span {
   font-size: 30px;
-  background: linear-gradient(to right, #932a4d, #cc016a);
+  background: linear-gradient(to right, #6e203a, #cc016a);
     -webkit-background-clip: text;
     background-clip: text; 
     -webkit-text-fill-color: transparent;
