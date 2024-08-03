@@ -129,7 +129,7 @@ hr {
 
 .testimonial {
     padding: 100px 0;
-    background-color: #191A1F;
+    background-color: #24272E;
     text-align: center;
 }
 
@@ -141,7 +141,7 @@ hr {
 
 .testimonial-1 {
     flex-basis: calc(50% - 25px);
-    background-color: #24272E;
+    background-color: #191A1F;
     padding: 25px;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
@@ -273,8 +273,7 @@ input {
 .blog {
   padding: 100px 0;
   text-align: center;
-  background-color: #24272E;  
-  
+  background-color: #191A1F;  
 }
 
 .blog-content {
@@ -286,7 +285,7 @@ input {
 
 .blog-1 {
   flex-basis: calc(33.3% - 20px);
-  background-color: #191A1F;
+  background-color: #24272E;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
   border-radius: 30px;
 }
