@@ -274,22 +274,27 @@ input {
   padding: 100px 0;
   text-align: center;
   background-color: #24272E;  
+  
 }
 
 .blog-content {
   display: flex;
   justify-content: space-between;
   margin-top: 35px;
+
 }
 
 .blog-1 {
   flex-basis: calc(33.3% - 20px);
   background-color: #191A1F;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 30px;
 }
 
 .blog-1 img {
   margin-bottom: 15px;
+  border-top-left-radius: 30px; 
+  border-top-right-radius: 30px; 
 }
 
 .blog-txt {
