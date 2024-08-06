@@ -6,54 +6,6 @@
     list-style: none;    
 }
 
-.special-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 300px;
-  text-align: center;
-  background: linear-gradient(
-        180deg,
-        rgba(36,39,46,1) 0%,
-        rgba(25,26,31,1) 100%
-    );
-}
-
-.special-content .special-txt {
-  flex: 1;
-  margin-right: 70px;
-  margin-left: 70px;
-}
-
-.special-content .special-txt h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-.special-content .special-txt hr {
-  margin: 10px 0;
-  border: 1px solid #ccc;
-}
-
-.special-content .special-txt p {
-  font-size: 1.2em;
-}
-
-.special-content .special-img {
-  flex: 1;
-}
-
-.special-content .special-img img {
-  max-width: 100%;
-  height: auto;
-  cursor: pointer;
-  transition: transform 0.4s;
-}
-
-.special-content .special-img img:hover {
-  transform: scale(1.2);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -447,31 +399,6 @@ input {
   text-align: center;
 }
 @media(max-width:950px) {
-
-  .special-content {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .special-content .special-txt {
-    margin: 0 0 5px 0;
-  }
-
-  .special-content .special-txt h2 {
-    font-size: 1.5em;
-  }
-
-  .special-content .special-txt p {
-    font-size: 1em;
-  }
-
-  .special-content .special-img {
-    margin-top: 0;
-  }
-
-  .special-content .special-img img:hover {
-    transform: scale(1.05);
-  }
 
   .derechos {
     font-size: 9px;
