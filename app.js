@@ -41,4 +41,12 @@ document.addEventListener("DOMContentLoaded", () => {
           }, 1000);
       });
   });
+
+  const headerBk = document.querySelector('.header-bk');
+  if (headerBk) {
+      window.addEventListener('scroll', () => {
+          const offset = window.scrollY;
+          headerBk.style.backgroundPositionY = offset * 0.5 + 'px';
+      });
+  }
 });
