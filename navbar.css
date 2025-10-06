@@ -11,9 +11,10 @@
         rgba(29,30,35,0.8)
     ),
     url(images/backg.jpg);
-    background-position: top center;
+    background-position: center 0, center 0;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     min-height: 80vh;
