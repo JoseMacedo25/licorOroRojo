@@ -75,3 +75,12 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   }
   });
+=======
+  if (headerBk) {
+      window.addEventListener('scroll', () => {
+          const offset = window.scrollY;
+          headerBk.style.backgroundPositionY = offset * 0.5 + 'px';
+      });
+  }
+});
+
